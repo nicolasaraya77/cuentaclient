@@ -1,5 +1,10 @@
-const LayoutGuest = () => {
-  return <div>layoutGuest</div>;
+const LayoutGuest = ({ children }) => {
+  return (
+    <div>
+      layoutGuest
+      {children}
+    </div>
+  );
 };
 
 export default LayoutGuest;
